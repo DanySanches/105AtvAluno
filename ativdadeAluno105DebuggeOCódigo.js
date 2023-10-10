@@ -25,10 +25,7 @@ function getData {
             " value=" +
             like +
             " onclick='updateLike(this.id)'>";
-          span_with_tag =
-            "<span id='glyphicon glyphicon-thumbs-up'>Curtidas: " +
-            like +
-            "</span></button><hr>";
+           span_with_tag = "<i id='bi bi-hand-thumbs-up'> Curtidas: "+ like +"</i></button><hr>";
           collum = name_with_tag + message_with_tag + like_button + span_with_tag;
           document.getElementById("output").innerHTML += row;
         }
